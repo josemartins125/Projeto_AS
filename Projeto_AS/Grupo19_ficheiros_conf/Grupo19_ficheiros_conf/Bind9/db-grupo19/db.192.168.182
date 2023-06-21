@@ -1,0 +1,19 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL    604800
+@       IN      SOA  ns.grupo19.com.      webmaster.grupo19.com. (
+                     2023060803         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      ns.grupo19.com.
+;
+159     IN      PTR     grupo19.com.
+159     IN      PTR     www.grupo19.com.
+159     IN      PTR     ns.grupo19.com.
+160	IN	PTR	mail1.grupo19.com.
+159	IN	PTR	mail.grupo19.com.
+;
